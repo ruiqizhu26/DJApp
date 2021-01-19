@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6861A04A25A9147A00C1603C /* UntitledApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6861A04925A9147A00C1603C /* UntitledApp.swift */; };
+		682E1D5925AF54A7003D0EF4 /* ChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E1D5825AF54A7003D0EF4 /* ChooseView.swift */; };
+		682E1D5E25AF5650003D0EF4 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E1D5D25AF5650003D0EF4 /* ImagePicker.swift */; };
+		682E1D7225AF5DEC003D0EF4 /* PhotoSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E1D7125AF5DEC003D0EF4 /* PhotoSelection.swift */; };
+		6861A04A25A9147A00C1603C /* DJApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6861A04925A9147A00C1603C /* DJApp.swift */; };
 		6861A04C25A9147A00C1603C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6861A04B25A9147A00C1603C /* ContentView.swift */; };
 		6861A04E25A9147C00C1603C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6861A04D25A9147C00C1603C /* Assets.xcassets */; };
 		6861A05125A9147C00C1603C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6861A05025A9147C00C1603C /* Preview Assets.xcassets */; };
-		6861A05C25A9147C00C1603C /* UntitledTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6861A05B25A9147C00C1603C /* UntitledTests.swift */; };
-		6861A06725A9147C00C1603C /* UntitledUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6861A06625A9147C00C1603C /* UntitledUITests.swift */; };
+		6861A05C25A9147C00C1603C /* DJAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6861A05B25A9147C00C1603C /* DJAppTests.swift */; };
+		6861A06725A9147C00C1603C /* DJAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6861A06625A9147C00C1603C /* DJAppUITests.swift */; };
 		6861A07825A9151F00C1603C /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6861A07725A9151F00C1603C /* PhotoCollection.swift */; };
-		6861A07D25A922D000C1603C /* PhotoRow13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6861A07C25A922D000C1603C /* PhotoRow13.swift */; };
+		6861A07D25A922D000C1603C /* PhotoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6861A07C25A922D000C1603C /* PhotoRow.swift */; };
 		6861A08725A9264100C1603C /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6861A08625A9264100C1603C /* Photo.swift */; };
-		6887D2FA25A9350000BE827C /* PhotoRow12L.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887D2F925A9350000BE827C /* PhotoRow12L.swift */; };
+		68F5962C25B697310073AC03 /* YearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F5962B25B697310073AC03 /* YearView.swift */; };
+		68F5963125B697530073AC03 /* YearRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F5963025B697530073AC03 /* YearRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,22 +41,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6861A04625A9147A00C1603C /* Untitled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Untitled.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6861A04925A9147A00C1603C /* UntitledApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UntitledApp.swift; sourceTree = "<group>"; };
+		682E1D5825AF54A7003D0EF4 /* ChooseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseView.swift; sourceTree = "<group>"; };
+		682E1D5D25AF5650003D0EF4 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		682E1D7125AF5DEC003D0EF4 /* PhotoSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelection.swift; sourceTree = "<group>"; };
+		6861A04625A9147A00C1603C /* DJApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6861A04925A9147A00C1603C /* DJApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJApp.swift; sourceTree = "<group>"; };
 		6861A04B25A9147A00C1603C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6861A04D25A9147C00C1603C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6861A05025A9147C00C1603C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6861A05225A9147C00C1603C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6861A05725A9147C00C1603C /* UntitledTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UntitledTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6861A05B25A9147C00C1603C /* UntitledTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UntitledTests.swift; sourceTree = "<group>"; };
+		6861A05725A9147C00C1603C /* DJAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6861A05B25A9147C00C1603C /* DJAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJAppTests.swift; sourceTree = "<group>"; };
 		6861A05D25A9147C00C1603C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6861A06225A9147C00C1603C /* UntitledUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UntitledUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6861A06625A9147C00C1603C /* UntitledUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UntitledUITests.swift; sourceTree = "<group>"; };
+		6861A06225A9147C00C1603C /* DJAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6861A06625A9147C00C1603C /* DJAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJAppUITests.swift; sourceTree = "<group>"; };
 		6861A06825A9147C00C1603C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6861A07725A9151F00C1603C /* PhotoCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollection.swift; sourceTree = "<group>"; };
-		6861A07C25A922D000C1603C /* PhotoRow13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRow13.swift; sourceTree = "<group>"; };
+		6861A07C25A922D000C1603C /* PhotoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRow.swift; sourceTree = "<group>"; };
 		6861A08625A9264100C1603C /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
-		6887D2F925A9350000BE827C /* PhotoRow12L.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRow12L.swift; sourceTree = "<group>"; };
+		68F5962B25B697310073AC03 /* YearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearView.swift; sourceTree = "<group>"; };
+		68F5963025B697530073AC03 /* YearRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +88,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		682E1D7025AF5DC7003D0EF4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				682E1D5D25AF5650003D0EF4 /* ImagePicker.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		6861A03D25A9147A00C1603C = {
 			isa = PBXGroup;
 			children = (
-				6861A04825A9147A00C1603C /* Untitled */,
-				6861A05A25A9147C00C1603C /* UntitledTests */,
-				6861A06525A9147C00C1603C /* UntitledUITests */,
+				6861A04825A9147A00C1603C /* DJApp */,
+				6861A05A25A9147C00C1603C /* DJAppTests */,
+				6861A06525A9147C00C1603C /* DJAppUITests */,
 				6861A04725A9147A00C1603C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,24 +109,25 @@
 		6861A04725A9147A00C1603C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6861A04625A9147A00C1603C /* Untitled.app */,
-				6861A05725A9147C00C1603C /* UntitledTests.xctest */,
-				6861A06225A9147C00C1603C /* UntitledUITests.xctest */,
+				6861A04625A9147A00C1603C /* DJApp.app */,
+				6861A05725A9147C00C1603C /* DJAppTests.xctest */,
+				6861A06225A9147C00C1603C /* DJAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6861A04825A9147A00C1603C /* Untitled */ = {
+		6861A04825A9147A00C1603C /* DJApp */ = {
 			isa = PBXGroup;
 			children = (
-				6861A04925A9147A00C1603C /* UntitledApp.swift */,
+				6861A04925A9147A00C1603C /* DJApp.swift */,
 				6861A08125A925E300C1603C /* View */,
 				6861A08525A9262C00C1603C /* Model */,
+				682E1D7025AF5DC7003D0EF4 /* Helper */,
 				6861A04D25A9147C00C1603C /* Assets.xcassets */,
 				6861A05225A9147C00C1603C /* Info.plist */,
 				6861A04F25A9147C00C1603C /* Preview Content */,
 			);
-			path = Untitled;
+			path = DJApp;
 			sourceTree = "<group>";
 		};
 		6861A04F25A9147C00C1603C /* Preview Content */ = {
@@ -121,31 +138,34 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		6861A05A25A9147C00C1603C /* UntitledTests */ = {
+		6861A05A25A9147C00C1603C /* DJAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				6861A05B25A9147C00C1603C /* UntitledTests.swift */,
+				6861A05B25A9147C00C1603C /* DJAppTests.swift */,
 				6861A05D25A9147C00C1603C /* Info.plist */,
 			);
-			path = UntitledTests;
+			path = DJAppTests;
 			sourceTree = "<group>";
 		};
-		6861A06525A9147C00C1603C /* UntitledUITests */ = {
+		6861A06525A9147C00C1603C /* DJAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				6861A06625A9147C00C1603C /* UntitledUITests.swift */,
+				6861A06625A9147C00C1603C /* DJAppUITests.swift */,
 				6861A06825A9147C00C1603C /* Info.plist */,
 			);
-			path = UntitledUITests;
+			path = DJAppUITests;
 			sourceTree = "<group>";
 		};
 		6861A08125A925E300C1603C /* View */ = {
 			isa = PBXGroup;
 			children = (
 				6861A04B25A9147A00C1603C /* ContentView.swift */,
+				682E1D5825AF54A7003D0EF4 /* ChooseView.swift */,
+				68F5962B25B697310073AC03 /* YearView.swift */,
+				68F5963025B697530073AC03 /* YearRow.swift */,
+				682E1D7125AF5DEC003D0EF4 /* PhotoSelection.swift */,
 				6861A07725A9151F00C1603C /* PhotoCollection.swift */,
-				6861A07C25A922D000C1603C /* PhotoRow13.swift */,
-				6887D2F925A9350000BE827C /* PhotoRow12L.swift */,
+				6861A07C25A922D000C1603C /* PhotoRow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -161,9 +181,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6861A04525A9147A00C1603C /* Untitled */ = {
+		6861A04525A9147A00C1603C /* DJApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6861A06B25A9147C00C1603C /* Build configuration list for PBXNativeTarget "Untitled" */;
+			buildConfigurationList = 6861A06B25A9147C00C1603C /* Build configuration list for PBXNativeTarget "DJApp" */;
 			buildPhases = (
 				6861A04225A9147A00C1603C /* Sources */,
 				6861A04325A9147A00C1603C /* Frameworks */,
@@ -173,14 +193,14 @@
 			);
 			dependencies = (
 			);
-			name = Untitled;
+			name = DJApp;
 			productName = Untitled;
-			productReference = 6861A04625A9147A00C1603C /* Untitled.app */;
+			productReference = 6861A04625A9147A00C1603C /* DJApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6861A05625A9147C00C1603C /* UntitledTests */ = {
+		6861A05625A9147C00C1603C /* DJAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6861A06E25A9147C00C1603C /* Build configuration list for PBXNativeTarget "UntitledTests" */;
+			buildConfigurationList = 6861A06E25A9147C00C1603C /* Build configuration list for PBXNativeTarget "DJAppTests" */;
 			buildPhases = (
 				6861A05325A9147C00C1603C /* Sources */,
 				6861A05425A9147C00C1603C /* Frameworks */,
@@ -191,14 +211,14 @@
 			dependencies = (
 				6861A05925A9147C00C1603C /* PBXTargetDependency */,
 			);
-			name = UntitledTests;
+			name = DJAppTests;
 			productName = UntitledTests;
-			productReference = 6861A05725A9147C00C1603C /* UntitledTests.xctest */;
+			productReference = 6861A05725A9147C00C1603C /* DJAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6861A06125A9147C00C1603C /* UntitledUITests */ = {
+		6861A06125A9147C00C1603C /* DJAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6861A07125A9147C00C1603C /* Build configuration list for PBXNativeTarget "UntitledUITests" */;
+			buildConfigurationList = 6861A07125A9147C00C1603C /* Build configuration list for PBXNativeTarget "DJAppUITests" */;
 			buildPhases = (
 				6861A05E25A9147C00C1603C /* Sources */,
 				6861A05F25A9147C00C1603C /* Frameworks */,
@@ -209,9 +229,9 @@
 			dependencies = (
 				6861A06425A9147C00C1603C /* PBXTargetDependency */,
 			);
-			name = UntitledUITests;
+			name = DJAppUITests;
 			productName = UntitledUITests;
-			productReference = 6861A06225A9147C00C1603C /* UntitledUITests.xctest */;
+			productReference = 6861A06225A9147C00C1603C /* DJAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -236,7 +256,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6861A04125A9147A00C1603C /* Build configuration list for PBXProject "Untitled" */;
+			buildConfigurationList = 6861A04125A9147A00C1603C /* Build configuration list for PBXProject "DJApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -249,9 +269,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6861A04525A9147A00C1603C /* Untitled */,
-				6861A05625A9147C00C1603C /* UntitledTests */,
-				6861A06125A9147C00C1603C /* UntitledUITests */,
+				6861A04525A9147A00C1603C /* DJApp */,
+				6861A05625A9147C00C1603C /* DJAppTests */,
+				6861A06125A9147C00C1603C /* DJAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -287,12 +307,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				682E1D5E25AF5650003D0EF4 /* ImagePicker.swift in Sources */,
 				6861A04C25A9147A00C1603C /* ContentView.swift in Sources */,
+				682E1D5925AF54A7003D0EF4 /* ChooseView.swift in Sources */,
 				6861A07825A9151F00C1603C /* PhotoCollection.swift in Sources */,
-				6861A04A25A9147A00C1603C /* UntitledApp.swift in Sources */,
-				6887D2FA25A9350000BE827C /* PhotoRow12L.swift in Sources */,
-				6861A07D25A922D000C1603C /* PhotoRow13.swift in Sources */,
+				68F5962C25B697310073AC03 /* YearView.swift in Sources */,
+				6861A04A25A9147A00C1603C /* DJApp.swift in Sources */,
+				6861A07D25A922D000C1603C /* PhotoRow.swift in Sources */,
 				6861A08725A9264100C1603C /* Photo.swift in Sources */,
+				682E1D7225AF5DEC003D0EF4 /* PhotoSelection.swift in Sources */,
+				68F5963125B697530073AC03 /* YearRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6861A05C25A9147C00C1603C /* UntitledTests.swift in Sources */,
+				6861A05C25A9147C00C1603C /* DJAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6861A06725A9147C00C1603C /* UntitledUITests.swift in Sources */,
+				6861A06725A9147C00C1603C /* DJAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,12 +341,12 @@
 /* Begin PBXTargetDependency section */
 		6861A05925A9147C00C1603C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6861A04525A9147A00C1603C /* Untitled */;
+			target = 6861A04525A9147A00C1603C /* DJApp */;
 			targetProxy = 6861A05825A9147C00C1603C /* PBXContainerItemProxy */;
 		};
 		6861A06425A9147C00C1603C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6861A04525A9147A00C1603C /* Untitled */;
+			target = 6861A04525A9147A00C1603C /* DJApp */;
 			targetProxy = 6861A06325A9147C00C1603C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -450,16 +474,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Untitled/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DJApp/Preview Content\"";
 				DEVELOPMENT_TEAM = UL3P7FR3FP;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Untitled/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DJApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ruiqizhu26.Untitled;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruiqizhu26.DJApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -472,16 +496,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Untitled/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DJApp/Preview Content\"";
 				DEVELOPMENT_TEAM = UL3P7FR3FP;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Untitled/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DJApp/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ruiqizhu26.Untitled;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruiqizhu26.DJApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -575,7 +599,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6861A04125A9147A00C1603C /* Build configuration list for PBXProject "Untitled" */ = {
+		6861A04125A9147A00C1603C /* Build configuration list for PBXProject "DJApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6861A06925A9147C00C1603C /* Debug */,
@@ -584,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6861A06B25A9147C00C1603C /* Build configuration list for PBXNativeTarget "Untitled" */ = {
+		6861A06B25A9147C00C1603C /* Build configuration list for PBXNativeTarget "DJApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6861A06C25A9147C00C1603C /* Debug */,
@@ -593,7 +617,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6861A06E25A9147C00C1603C /* Build configuration list for PBXNativeTarget "UntitledTests" */ = {
+		6861A06E25A9147C00C1603C /* Build configuration list for PBXNativeTarget "DJAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6861A06F25A9147C00C1603C /* Debug */,
@@ -602,7 +626,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6861A07125A9147C00C1603C /* Build configuration list for PBXNativeTarget "UntitledUITests" */ = {
+		6861A07125A9147C00C1603C /* Build configuration list for PBXNativeTarget "DJAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6861A07225A9147C00C1603C /* Debug */,

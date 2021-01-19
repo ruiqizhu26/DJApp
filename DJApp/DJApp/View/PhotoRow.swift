@@ -1,13 +1,13 @@
 //
-//  PhotoRow13.swift
-//  Untitled
+//  PhotoRow.swift
+//  DJApp
 //
 //  Created by Ruiqi Zhu on 1/8/21.
 //
 
 import SwiftUI
 
-struct PhotoRow13: View {
+struct PhotoRow: View {
     var size = UIScreen.main.bounds.width / 3.5
     var row: [Photo]
     
@@ -22,8 +22,8 @@ struct PhotoRow13: View {
     }
 }
 
-struct PhotoRow13_Previews: PreviewProvider {
+struct PhotoRow_Previews: PreviewProvider {
     static var previews: some View {
-        PhotoRow13(row: photos[0])
+        PhotoRow(row: photos[0])
     }
 }
